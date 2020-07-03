@@ -24,4 +24,4 @@
          * This URL will control the TB3
          * Run the TB3 RViz through (roslaunch turtlebot3_fake turtlebot3_fake.launch)
          * You can controll the TB3 manually by running (roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch)
-         * """   This version send the TB3 to a certain point  """"".
+         
