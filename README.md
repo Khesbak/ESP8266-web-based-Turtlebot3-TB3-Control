@@ -12,5 +12,16 @@
         2-Manual (w,z) prientation control.
         3-Rotation angle (Theata).
         4-plan setting with (x,y) destination.
- * Implementation:
+* Implementation:
         The application carried out on UBUNTU 18.04.
+* Technical Info:
+         * Subscribing to: nav_msgs/Odometry
+         * Publiching:       geometry_msgs/Twist
+         * This intend to connect to a Wifi Access Point and a rosserial TCP socket server1.
+         * You can launch the rosserial socket server with (rosrun rosserial_python serial_node.py tcp)
+         * The default port is 11411 as server 1
+         * This intend to connect to URL cayenne.mydevices.com as MQTT server 2
+         * This URL will control the TB3
+         * Run the TB3 RViz through (roslaunch turtlebot3_fake turtlebot3_fake.launch)
+         * You can controll the TB3 manually by running (roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch)
+         * """   This version send the TB3 to a certain point  """"".
